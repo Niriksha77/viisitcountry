@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    'Roboto',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-color: #161624;
+  min-height: 100vh;
+  padding: 24px 36px;
+}
+
+.responsive-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  color: #f8fafc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.countries-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 28px 0;
+  background-color: #1f1f2f;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.visited-countries-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.no-visited-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 260px;
+}
+
+.no-visited-text {
+  color: #f1f5f9;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
